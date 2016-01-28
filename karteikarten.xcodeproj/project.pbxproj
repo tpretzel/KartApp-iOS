@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0C0E241B38354200FD86EF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0C0E231B38354200FD86EF /* MBProgressHUD.m */; };
+		AB177DE81B5FD97000F0018C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB177DE71B5FD97000F0018C /* Common.swift */; };
+		AB251BC31BA0C2FD00811FBB /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB251BC21BA0C2FD00811FBB /* Cards.swift */; };
+		AB251BC51BA0C64F00811FBB /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB251BC41BA0C64F00811FBB /* Stats.swift */; };
+		AB2DF0C91BB2F0D700F93FD4 /* Cardsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2DF0C81BB2F0D700F93FD4 /* Cardsets.swift */; };
+		AB2EE08B1B0B794B003D6A48 /* cardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EE08A1B0B794B003D6A48 /* cardsViewController.swift */; };
+		AB2EE0931B0B7967003D6A48 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EE0921B0B7967003D6A48 /* LearnViewController.swift */; };
+		AB2EE0971B0B7AD7003D6A48 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EE0941B0B7AD7003D6A48 /* DraggableView.swift */; };
+		AB2EE0981B0B7AD7003D6A48 /* DraggableViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EE0951B0B7AD7003D6A48 /* DraggableViewBackground.swift */; };
+		AB2EE0991B0B7AD7003D6A48 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EE0961B0B7AD7003D6A48 /* OverlayView.swift */; };
+		AB38644D1B6115DB009456EE /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB38644C1B6115DB009456EE /* SettingsTVC.swift */; };
+		AB43A4651B0CB0F4002F6D29 /* CardsetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43A4641B0CB0F4002F6D29 /* CardsetCell.swift */; };
+		AB5119A91AFB904E00335B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5119A81AFB904E00335B8A /* AppDelegate.swift */; };
+		AB5119AC1AFB904E00335B8A /* karteikarten.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB5119AA1AFB904E00335B8A /* karteikarten.xcdatamodeld */; };
+		AB5119AE1AFB904E00335B8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5119AD1AFB904E00335B8A /* ViewController.swift */; };
+		AB5119B11AFB904E00335B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5119AF1AFB904E00335B8A /* Main.storyboard */; };
+		AB5119B61AFB904E00335B8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5119B41AFB904E00335B8A /* LaunchScreen.xib */; };
+		AB5119C21AFB904E00335B8A /* karteikartenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5119C11AFB904E00335B8A /* karteikartenTests.swift */; };
+		AB6539281BBAA8D70070CF3F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6539271BBAA8D70070CF3F /* User.swift */; };
+		ABC48CAA1B16003500F38BA7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC48CA91B16003500F38BA7 /* LoginVC.swift */; };
+		ABC8151A1B60EA9D0066FE72 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC815191B60EA9D0066FE72 /* CoreData.swift */; };
+		ABCB26261BD79BA80073423F /* Alamofire-SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCB26251BD79BA80073423F /* Alamofire-SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		ABD8F7041BA189C7007B8746 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD8F7031BA189C7007B8746 /* CardView.swift */; };
+		ABEA79261B092D7C00F3416D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEA79251B092D7B00F3416D /* Media.xcassets */; };
+		ABF360C41BB192380037FE05 /* ShareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF360C31BB192380037FE05 /* ShareVC.swift */; };
+		BF1CFFF035D1362B7C9CDDE5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999ABA2DF6E92DA7A945D2FC /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5119BC1AFB904E00335B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB51199B1AFB904E00335B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5119A21AFB904E00335B8A;
+			remoteInfo = karteikarten;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB5119E61AFB93EB00335B8A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49728050D066BB4416FD81A2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		86A9CC569B09F3347D1766BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		999ABA2DF6E92DA7A945D2FC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0C0E1B1B38354200FD86EF /* karteikarten-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "karteikarten-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB0C0E221B38354200FD86EF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		AB0C0E231B38354200FD86EF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		AB177DE71B5FD97000F0018C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		AB251BC21BA0C2FD00811FBB /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		AB251BC41BA0C64F00811FBB /* Stats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		AB2DF0C81BB2F0D700F93FD4 /* Cardsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardsets.swift; sourceTree = "<group>"; };
+		AB2EE08A1B0B794B003D6A48 /* cardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardsViewController.swift; sourceTree = "<group>"; };
+		AB2EE0921B0B7967003D6A48 /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		AB2EE0941B0B7AD7003D6A48 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		AB2EE0951B0B7AD7003D6A48 /* DraggableViewBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableViewBackground.swift; sourceTree = "<group>"; };
+		AB2EE0961B0B7AD7003D6A48 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		AB38644C1B6115DB009456EE /* SettingsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		AB43A4641B0CB0F4002F6D29 /* CardsetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsetCell.swift; sourceTree = "<group>"; };
+		AB5119A31AFB904E00335B8A /* karteikarten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = karteikarten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5119A71AFB904E00335B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5119A81AFB904E00335B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB5119AB1AFB904E00335B8A /* karteikarten.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = karteikarten.xcdatamodel; sourceTree = "<group>"; };
+		AB5119AD1AFB904E00335B8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB5119B01AFB904E00335B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB5119B51AFB904E00335B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB5119BB1AFB904E00335B8A /* karteikartenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = karteikartenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5119C01AFB904E00335B8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5119C11AFB904E00335B8A /* karteikartenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = karteikartenTests.swift; sourceTree = "<group>"; };
+		AB6539271BBAA8D70070CF3F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AB6CC3EB1B3859E90005610F /* Alamofire-SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alamofire-SwiftyJSON.h"; sourceTree = "<group>"; };
+		ABC48CA91B16003500F38BA7 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		ABC815191B60EA9D0066FE72 /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		ABCB26251BD79BA80073423F /* Alamofire-SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire-SwiftyJSON.swift"; sourceTree = "<group>"; };
+		ABD8F7031BA189C7007B8746 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		ABEA79251B092D7B00F3416D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		ABF360C31BB192380037FE05 /* ShareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5119A01AFB904E00335B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CFFF035D1362B7C9CDDE5 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5119B81AFB904E00335B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113B55CEADD2C3BCFFC1CEDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				999ABA2DF6E92DA7A945D2FC /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		144FDD0DD8A0844280BD10E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49728050D066BB4416FD81A2 /* Pods.debug.xcconfig */,
+				86A9CC569B09F3347D1766BF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB0C0E251B38359E00FD86EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABF360C31BB192380037FE05 /* ShareVC.swift */,
+				ABD8F7031BA189C7007B8746 /* CardView.swift */,
+				AB38644C1B6115DB009456EE /* SettingsTVC.swift */,
+				ABC48CA91B16003500F38BA7 /* LoginVC.swift */,
+				AB5119AD1AFB904E00335B8A /* ViewController.swift */,
+				AB2EE08A1B0B794B003D6A48 /* cardsViewController.swift */,
+				AB2EE0921B0B7967003D6A48 /* LearnViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AB0C0E261B3835AC00FD86EF /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				AB6CC3EB1B3859E90005610F /* Alamofire-SwiftyJSON.h */,
+				ABCB26251BD79BA80073423F /* Alamofire-SwiftyJSON.swift */,
+				AB0C0E221B38354200FD86EF /* MBProgressHUD.h */,
+				AB0C0E231B38354200FD86EF /* MBProgressHUD.m */,
+				AB2EE0941B0B7AD7003D6A48 /* DraggableView.swift */,
+				AB2EE0951B0B7AD7003D6A48 /* DraggableViewBackground.swift */,
+				AB2EE0961B0B7AD7003D6A48 /* OverlayView.swift */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+		AB51199A1AFB904E00335B8A = {
+			isa = PBXGroup;
+			children = (
+				AB5119A51AFB904E00335B8A /* karteikarten */,
+				AB5119BE1AFB904E00335B8A /* karteikartenTests */,
+				AB5119A41AFB904E00335B8A /* Products */,
+				144FDD0DD8A0844280BD10E9 /* Pods */,
+				113B55CEADD2C3BCFFC1CEDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5119A41AFB904E00335B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5119A31AFB904E00335B8A /* karteikarten.app */,
+				AB5119BB1AFB904E00335B8A /* karteikartenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5119A51AFB904E00335B8A /* karteikarten */ = {
+			isa = PBXGroup;
+			children = (
+				AB5119AF1AFB904E00335B8A /* Main.storyboard */,
+				AB5119F11AFB942300335B8A /* Karteikartensystem */,
+				AB5119A81AFB904E00335B8A /* AppDelegate.swift */,
+				AB0C0E251B38359E00FD86EF /* Controller */,
+				AB43A4641B0CB0F4002F6D29 /* CardsetCell.swift */,
+				AB5119AA1AFB904E00335B8A /* karteikarten.xcdatamodeld */,
+				AB5119A61AFB904E00335B8A /* Supporting Files */,
+				AB0C0E261B3835AC00FD86EF /* includes */,
+				AB0C0E1B1B38354200FD86EF /* karteikarten-Bridging-Header.h */,
+			);
+			path = karteikarten;
+			sourceTree = "<group>";
+		};
+		AB5119A61AFB904E00335B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA79251B092D7B00F3416D /* Media.xcassets */,
+				AB5119B41AFB904E00335B8A /* LaunchScreen.xib */,
+				AB5119A71AFB904E00335B8A /* Info.plist */,
+				AB177DE71B5FD97000F0018C /* Common.swift */,
+				ABC815191B60EA9D0066FE72 /* CoreData.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB5119BE1AFB904E00335B8A /* karteikartenTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5119C11AFB904E00335B8A /* karteikartenTests.swift */,
+				AB5119BF1AFB904E00335B8A /* Supporting Files */,
+			);
+			path = karteikartenTests;
+			sourceTree = "<group>";
+		};
+		AB5119BF1AFB904E00335B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5119C01AFB904E00335B8A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB5119F11AFB942300335B8A /* Karteikartensystem */ = {
+			isa = PBXGroup;
+			children = (
+				AB251BC21BA0C2FD00811FBB /* Cards.swift */,
+				AB2DF0C81BB2F0D700F93FD4 /* Cardsets.swift */,
+				AB6539271BBAA8D70070CF3F /* User.swift */,
+				AB251BC41BA0C64F00811FBB /* Stats.swift */,
+			);
+			name = Karteikartensystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5119A21AFB904E00335B8A /* karteikarten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5119C51AFB904E00335B8A /* Build configuration list for PBXNativeTarget "karteikarten" */;
+			buildPhases = (
+				2AD38FA35D4F85F7803706E0 /* Check Pods Manifest.lock */,
+				AB51199F1AFB904E00335B8A /* Sources */,
+				AB5119A01AFB904E00335B8A /* Frameworks */,
+				AB5119A11AFB904E00335B8A /* Resources */,
+				AB5119E61AFB93EB00335B8A /* Embed Frameworks */,
+				9AD982D68074B64575D4CE9A /* Embed Pods Frameworks */,
+				74B1FA7836EC7988238A8995 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = karteikarten;
+			productName = karteikarten;
+			productReference = AB5119A31AFB904E00335B8A /* karteikarten.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5119BA1AFB904E00335B8A /* karteikartenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5119C81AFB904E00335B8A /* Build configuration list for PBXNativeTarget "karteikartenTests" */;
+			buildPhases = (
+				AB5119B71AFB904E00335B8A /* Sources */,
+				AB5119B81AFB904E00335B8A /* Frameworks */,
+				AB5119B91AFB904E00335B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5119BD1AFB904E00335B8A /* PBXTargetDependency */,
+			);
+			name = karteikartenTests;
+			productName = karteikartenTests;
+			productReference = AB5119BB1AFB904E00335B8A /* karteikartenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB51199B1AFB904E00335B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "karta.hs-osnabrueck";
+				TargetAttributes = {
+					AB5119A21AFB904E00335B8A = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4SC864DHH8;
+					};
+					AB5119BA1AFB904E00335B8A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AB5119A21AFB904E00335B8A;
+					};
+				};
+			};
+			buildConfigurationList = AB51199E1AFB904E00335B8A /* Build configuration list for PBXProject "karteikarten" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB51199A1AFB904E00335B8A;
+			productRefGroup = AB5119A41AFB904E00335B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5119A21AFB904E00335B8A /* karteikarten */,
+				AB5119BA1AFB904E00335B8A /* karteikartenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5119A11AFB904E00335B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5119B11AFB904E00335B8A /* Main.storyboard in Resources */,
+				AB5119B61AFB904E00335B8A /* LaunchScreen.xib in Resources */,
+				ABEA79261B092D7C00F3416D /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5119B91AFB904E00335B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AD38FA35D4F85F7803706E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74B1FA7836EC7988238A8995 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AD982D68074B64575D4CE9A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB51199F1AFB904E00335B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2EE0981B0B7AD7003D6A48 /* DraggableViewBackground.swift in Sources */,
+				AB43A4651B0CB0F4002F6D29 /* CardsetCell.swift in Sources */,
+				AB2EE0971B0B7AD7003D6A48 /* DraggableView.swift in Sources */,
+				AB251BC31BA0C2FD00811FBB /* Cards.swift in Sources */,
+				ABC8151A1B60EA9D0066FE72 /* CoreData.swift in Sources */,
+				AB5119AE1AFB904E00335B8A /* ViewController.swift in Sources */,
+				AB251BC51BA0C64F00811FBB /* Stats.swift in Sources */,
+				ABCB26261BD79BA80073423F /* Alamofire-SwiftyJSON.swift in Sources */,
+				AB2EE0931B0B7967003D6A48 /* LearnViewController.swift in Sources */,
+				AB0C0E241B38354200FD86EF /* MBProgressHUD.m in Sources */,
+				AB5119AC1AFB904E00335B8A /* karteikarten.xcdatamodeld in Sources */,
+				AB2EE0991B0B7AD7003D6A48 /* OverlayView.swift in Sources */,
+				ABF360C41BB192380037FE05 /* ShareVC.swift in Sources */,
+				AB5119A91AFB904E00335B8A /* AppDelegate.swift in Sources */,
+				ABD8F7041BA189C7007B8746 /* CardView.swift in Sources */,
+				ABC48CAA1B16003500F38BA7 /* LoginVC.swift in Sources */,
+				AB177DE81B5FD97000F0018C /* Common.swift in Sources */,
+				AB2EE08B1B0B794B003D6A48 /* cardsViewController.swift in Sources */,
+				AB38644D1B6115DB009456EE /* SettingsTVC.swift in Sources */,
+				AB2DF0C91BB2F0D700F93FD4 /* Cardsets.swift in Sources */,
+				AB6539281BBAA8D70070CF3F /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5119B71AFB904E00335B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5119C21AFB904E00335B8A /* karteikartenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5119BD1AFB904E00335B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5119A21AFB904E00335B8A /* karteikarten */;
+			targetProxy = AB5119BC1AFB904E00335B8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB5119AF1AFB904E00335B8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5119B01AFB904E00335B8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB5119B41AFB904E00335B8A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5119B51AFB904E00335B8A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5119C31AFB904E00335B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB5119C41AFB904E00335B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5119C61AFB904E00335B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49728050D066BB4416FD81A2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = karteikarten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hs-osnabrueck.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "karteikarten/karteikarten-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB5119C71AFB904E00335B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A9CC569B09F3347D1766BF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = karteikarten/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hs-osnabrueck.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "karteikarten/karteikarten-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AB5119C91AFB904E00335B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = karteikartenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hs-osnabrueck.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/karteikarten.app/karteikarten";
+			};
+			name = Debug;
+		};
+		AB5119CA1AFB904E00335B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = karteikartenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hs-osnabrueck.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/karteikarten.app/karteikarten";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB51199E1AFB904E00335B8A /* Build configuration list for PBXProject "karteikarten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5119C31AFB904E00335B8A /* Debug */,
+				AB5119C41AFB904E00335B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5119C51AFB904E00335B8A /* Build configuration list for PBXNativeTarget "karteikarten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5119C61AFB904E00335B8A /* Debug */,
+				AB5119C71AFB904E00335B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5119C81AFB904E00335B8A /* Build configuration list for PBXNativeTarget "karteikartenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5119C91AFB904E00335B8A /* Debug */,
+				AB5119CA1AFB904E00335B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB5119AA1AFB904E00335B8A /* karteikarten.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB5119AB1AFB904E00335B8A /* karteikarten.xcdatamodel */,
+			);
+			currentVersion = AB5119AB1AFB904E00335B8A /* karteikarten.xcdatamodel */;
+			path = karteikarten.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB51199B1AFB904E00335B8A /* Project object */;
+}

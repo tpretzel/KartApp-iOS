@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="15A282a" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Cards" representedClassName="Cards" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="box" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cardid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cardsets_setid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="cardset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cardsets" inverseName="cards" inverseEntity="Cardsets" syncable="YES"/>
+    </entity>
+    <entity name="Cardsets" representedClassName="Cardsets" syncable="YES">
+        <attribute name="cardsetid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cardsetname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="permission" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="syncdate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="cards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Cards" inverseName="cardset" inverseEntity="Cards" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="cardsets" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="apikey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="autoSync" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cardsToLearn" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="examMode" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="loggedIn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" defaultDateTimeInterval="0" defaultValueString="NSDate()" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cardsets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Cardsets" inverseName="user" inverseEntity="Cardsets" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cards" positionX="-9" positionY="51" width="128" height="150"/>
+        <element name="Cardsets" positionX="-279" positionY="-90" width="128" height="135"/>
+        <element name="User" positionX="-369" positionY="54" width="128" height="195"/>
+    </elements>
+</model>
