@@ -11,7 +11,7 @@ A simple flashcard app for iOS with nice share-function.
 ### User Manual Website/App [User Manual](https://github.com/dvogt23/KartApp-iOS/raw/master/Files/Benutzerhandbuch%20KartApp.pdf)[.PDF]
 ### Systemdocumentation Webseite/App [Wiki](https://github.com/dvogt23/KartApp-iOS/wiki)
 
-A Project by O. Schrand, [T. Sundermann](https://github.com/Sodamann), T. Pretzel, [D. Vogt](https://github.com/dvogt23), M. Yaray
+A Project by O. Schrand, [T. Sundermann](https://github.com/Sodamann), [T. Pretzel](https://github.com/tpretzel), [D. Vogt](https://github.com/dvogt23), M. Yaray
 
 ## Features
 - [x] login
